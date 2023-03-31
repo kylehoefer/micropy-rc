@@ -29,13 +29,13 @@ MicroPython codebase to read/process PWM signals from RC receivers with micro-co
     - More to come!...Ideas welcome.
 
 ## In-order short to long-term TODO's:
-[] Clean-up the codebase
-[] Add classes for increased modularity
-[] Add endploint calibration procedure for throttle, steering, and aux RX channels
-[] Add button and LED for mode-switching & calibration so no computer is needed
-[] Add ability to plug in a small LCD screen to report mode/endpoints/calibration values
-[] Continually add/simplify various functionality
-[] Expand code to include ESP-based boards
+- [ ] Clean-up the codebase
+- [ ] Add classes for increased modularity
+- [ ] Add endploint calibration procedure for throttle, steering, and aux RX channels
+- [ ] Add button and LED for mode-switching & calibration so no computer is needed
+- [ ] Add ability to plug in a small LCD screen to report mode/endpoints/calibration values
+- [ ] Continually add/simplify various functionality
+- [ ] Expand code to include ESP-based boards
 
 ## Some absurd future functionality which I personally think would be cool
 - Add a tiny speaker inside your build, blast tunes or controller a synth in real-time using input to mimic realistic engine sounds!
