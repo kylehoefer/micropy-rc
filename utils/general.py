@@ -17,7 +17,7 @@ import time
 import random as rnd
 from ulab import numpy as np
 import rp2
-from pwm_util import perc_to_duty
+from utils.pwm import perc_to_duty
 
 
 def sleep_ms(ms):

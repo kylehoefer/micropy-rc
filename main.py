@@ -15,7 +15,9 @@
 
 import time
 from machine import Pin, PWM, I2C
-from helper_funcs_micro import *
+from utils.pwm import *
+from utils.general import *
+from utils.light import *
 from lsm6dsox import LSM6DSOX
 import _thread
 

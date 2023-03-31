@@ -17,7 +17,8 @@ import time
 import random as rnd
 from ulab import numpy as np
 import rp2
-from pwm_util import perc_to_duty
+from utils.pwm import *
+from utils.general import *
 
 
 def double_backfire(led):
