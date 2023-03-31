@@ -28,7 +28,7 @@ MicroPython codebase to read/process PWM signals from RC receivers with micro-co
     - Add a servo based on gyro input attached to a GoPro in the cockpit, so the camera is always facing forward
     - More to come!...Ideas welcome.
 
-## In-order short to long-term TODO's:
+## Short to long-term TODO's, in order:
 - [ ] Clean-up the codebase
 - [ ] Add classes for increased modularity
 - [ ] Add endploint calibration procedure for throttle, steering, and aux RX channels
