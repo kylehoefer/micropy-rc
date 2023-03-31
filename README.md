@@ -1,7 +1,7 @@
 # micropy-rc
 MicroPython codebase to read/process PWM signals from RC receivers with micro-controllers to drive dynamic control for RC lighting, servos, and more.
 
-##LATEST UPDATES:
+## LATEST UPDATES:
 - 3-30-23:
     - Initial Commit
     - Currently only supports microcontrollers using the RP2040
@@ -9,7 +9,7 @@ MicroPython codebase to read/process PWM signals from RC receivers with micro-co
         - Controls 2 headlights, 2 brakelights, a light-bucket servo, and a blue & orange LED for backfire
     - Recommended using Thonny for modifying/testing code
 
-##Some basic functionality and possible examples which this codebase could be applied:
+## Some basic functionality and possible examples which this codebase could be applied:
 - Dynamic control (fade, blink, toggle) of LED's using throttle/steering/aux chn inputs
     - Toggle brake lights when throttle goes negative
     - Toggle reverse lights when throttle is negative for a certain amount of time
@@ -28,7 +28,7 @@ MicroPython codebase to read/process PWM signals from RC receivers with micro-co
     - Add a servo based on gyro input attached to a GoPro in the cockpit, so the camera is always facing forward
     - More to come!...Ideas welcome.
 
-##In-order short to long-term TODO's:
+## In-order short to long-term TODO's:
 [] Clean-up the codebase
 [] Add classes for increased modularity
 [] Add endploint calibration procedure for throttle, steering, and aux RX channels
