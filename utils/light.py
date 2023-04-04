@@ -16,9 +16,29 @@
 import time
 import random as rnd
 from ulab import numpy as np
+from machine import Pin, PWM, I2C
 import rp2
 from utils.pwm import *
 from utils.general import *
+
+
+class LightController:
+    def __init__(self, pin):
+        self.pin = Pin(pin, Pin.OUT)
+        self.pwm = PWM(self.pin)
+        self.pwm.freq(50)
+    
+    def __str__(self):
+        print(f'GPIO Reference: {self.pin}')
+        return
+        
+    def on(self):
+        self.pwm.duty_u16(perc_to_duty(100))
+        return
+    
+    def off(self):
+        self.pwm.duty_u16(perc_to_duty(0))
+        return
 
 
 def double_backfire(led):

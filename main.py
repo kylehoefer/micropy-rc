@@ -96,7 +96,7 @@ ch4_old = 0
 
 while (True):
 
-    # Get throttle & ch4 pwm values
+    # Get throttle & ch4 pwm values and convert to percentage values
     throttle_pwm = throttle_result
     throttle_perc = throttle_2_perc(throttle_pwm)
     ch4_pwm = ch4_result
